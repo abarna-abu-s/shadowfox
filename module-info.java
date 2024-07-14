@@ -1,8 +1,8 @@
-module com.example.librarymanagement {
+module com.example.contactmanagement {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.librarymanagement to javafx.fxml;
-    exports com.example.librarymanagement;
+    opens com.example.contactmanagement to javafx.fxml;
+    exports com.example.contactmanagement;
 }
